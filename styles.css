@@ -1,0 +1,590 @@
+
+
+html { 
+    background: url("https://s3-alpha-sig.figma.com/img/8280/f4d2/c504090b21501e62c9ad25ecc6a551b4?Expires=1673827200&Signature=S1DA7fsfvbJ5RBVpK4y6C4EBj7kkqL-IptlLUkd~Z5Iku2Q-hnYo-tOsEfdjEHKqsu4IOzBne-WtSvT3UHTcWB8mdr2sQ9B1YEVgUqs4MoGeDVO6FUHlo6sDn6MgjCyO3yAB8SvoFOyl5mUbQ6WBenw7fNHt-S9xFRSXJjgnuIF2BCCvN~babGo0wFkvitBsaH58e-DbsrMm7Q7aJO5YuRx-famY~feW70oTnp9yhKhBDbdSZoMcFHr8hnNhFZp-VuFu~R4Z~pGl1viJezpERmLKrBYej5C3tmNpaf0hEPZJFSFus5~6DbMyE~8f5CQ1c1KO-UYQxYF4RwFaNtobwQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  #main {
+    display: flex;  
+}
+
+#top-section {
+    
+    
+    z-index: 99;
+    margin-left: 1120px;
+    margin-top: 20px;
+}
+
+.button1 {
+    border-radius: 90px;
+ background: #F89E1B;
+ padding: 10px 22px;
+ color: #fff;
+ font-weight: 700;
+font-size: 16px;
+ border: none;
+ cursor: pointer;
+ transition: all 0.2s ease-in-out;
+ text-decoration: none;
+ font-family: 'Jost', sans-serif;
+ text-align: center;
+}
+
+.button1:hover {
+    transition: all 0.2s ease-in-out;
+     background: #fff;
+     color: #F89E1B;
+}
+
+.button2 {
+    border-radius: 90px;
+ background: transparent;
+ white-space: nowrap;
+ padding: 10px 22px;
+ color: #fff;
+ font-size: 16px;
+ font-weight: 700px;
+ text-align: center;
+ border-style: solid;
+ border-color:  #F89E1B;
+ cursor: pointer;
+ transition: all 0.2s ease-in-out;
+ text-decoration: none;
+ margin-left: 20px;
+ font-family: 'Jost', sans-serif;
+}
+
+.button2:hover {
+    transition: all 0.2s ease-in-out;
+     background: #fff;
+     color: #010606;
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    #top-section {
+        margin-left: 920px;
+    }
+
+}
+
+@media screen and (max-width: 1215px) {
+
+    #top-section {
+        margin-left: 820px;
+    }
+
+}
+
+@media screen and (max-width: 1115px) {
+
+    #top-section {
+        margin-left: 620px;
+    }
+
+}
+
+@media screen and (max-width: 915px) {
+
+    #top-section {
+        margin-left: 420px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 715px) {
+
+    #top-section {
+        margin-left: 370px;
+    }
+
+    .button1 {
+        font-size: 13px;
+    }
+
+    .button2 {
+        font-size: 13px;
+    }
+
+}
+
+
+
+#side-section {
+    width: 300px;
+    background: rgba(22, 22, 35, 0.6);
+    backdrop-filter: blur(12.5px);
+    height: 800px;
+    z-index: 99;
+    border-right: 2px solid #545454;
+    text-align: center;
+    position: fixed;
+}
+.title-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title {
+   
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+color: #fff;
+font-family: 'Jost', sans-serif;
+
+}
+
+.logo {
+    width: 50px;
+  height: 50px;
+  
+}
+
+.menu-section {
+    
+    margin-top: 50px;
+    margin-left: 55px;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+.item-section {
+    display: flex;
+    margin-bottom: 8px;
+    
+}
+
+.icon {
+    width: 20px;
+  height: 20px;
+  margin-right: 10px;
+ 
+}
+
+
+.icon:hover {
+color: #F89E1B;
+transition: 0.2s ease-in-out;
+}
+
+.item {
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    margin-top: -1px;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+}
+
+.item:hover {
+    color: #F89E1B;
+     transition: 0.2s ease-in-out;
+}
+
+.bond-section {
+    
+    margin-left: 25px;
+}
+
+.bond-title {
+font-weight: 500;
+font-size: 15px;
+color: #6A6971;
+display: flex;
+}
+
+.bond-info {
+    display: flex;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.bond-box1 {
+    margin-right: 78px;
+}
+
+.bond-type {
+    display: flex;
+}
+
+.bond-rate {
+    display: flex;
+}
+
+.space-box {
+    padding: 10px;
+}
+
+.social-media-section {
+    display: flex;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.social-media-icon {
+    width: 20px;
+  height: 20px;
+  margin-right: 60px;
+  cursor: pointer;
+}
+
+.social-media-icon:hover {
+    color: #F89E1B;
+     transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 640px) {
+
+    #top-section {
+        margin-left: 240px;
+       }
+
+    .button1 {
+        font-size: 10px;
+    }
+
+    .button2 {
+        font-size: 10px;
+    }
+
+    #side-section {
+     width: 200px;
+    }
+
+    .title {
+        font-size: 18px;
+        
+        }
+        
+        .logo {
+            width: 45px;
+          height: 45px;
+          
+        }
+        
+        .menu-section {
+            margin-left: 40px;
+        }
+        
+        .icon {
+            width: 16px;
+          height: 16px;
+          margin-right: 7px;
+         
+        }
+        
+        
+        .item {
+            font-size: 11px;
+        }
+        
+        .bond-section {
+            
+            margin-left: 13px;
+        }
+        
+        .bond-title {
+        font-size: 11px;
+        }
+        
+        .bond-info {
+            font-size: 9px;
+        }
+        
+        .bond-box1 {
+            margin-right: 58px;
+        }
+        
+        
+        .social-media-section {
+            margin-left: 50px;
+        }
+        
+        .social-media-icon {
+            width: 15px;
+          height: 15px;
+          margin-right: 30px;
+          cursor: pointer;
+        }
+        
+        .social-media-icon:hover {
+            color: #F89E1B;
+             transition: 0.2s ease-in-out;
+        }
+ 
+ }
+
+
+
+.card-section {
+    z-index: 99;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top:10%;
+  left:30%;
+}
+
+.stake-title {
+    color: #F89E1B;
+  
+  margin-bottom: 54px;
+  font-family: 'Jost', sans-serif;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+}
+
+.card-wrapper {
+    max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 16px;
+  padding: 0 50px;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #side-section {
+        
+    }
+
+    .card-section {
+        left: 40%;
+    }
+
+    .card-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+.stake-card {
+    background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(4px);
+border-radius: 15px;
+
+  border-color: #fff;
+  
+  height: 50px;
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.stake-card:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.stake-name {
+    font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  font-family: 'Jost', sans-serif;
+  
+}
+
+.stake-rate {
+    font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: -10px;
+  font-family: 'Jost', sans-serif;
+}
+
+
+
+.close-button {
+    border: none;
+    background-color: transparent;
+}
+
+.open-button {
+    border: none;
+    background-color: transparent;
+}
+
+.fa-bars {
+    display: none;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 350px) {
+    
+
+    #top-section {
+        display: block;
+        margin-top: 30px;
+        margin-left: 50px;
+        z-index: 50;
+    }
+
+    .button1 {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 26px;
+
+    }
+
+    .button2 {
+        margin-left: -20px;
+        font-size: 26px;
+    }
+
+    .fa-bars {
+        position: absolute;
+        display: block;
+        top: 20px;
+
+    }
+
+    .fa-times-circle {
+        color: #fff;
+        margin-left: 250px;
+    }
+
+
+    .card-section {
+      align-items: center;
+      top:20%;
+      margin-left: -180px;
+      z-index: 50;
+    }
+    
+    .stake-title {
+      margin-bottom: 34px;
+    font-size: 25px;
+    padding-top: 60px;
+    }
+    
+ 
+    
+    .stake-card {
+      height: 50px;
+      width: 250px;
+      align-items: center;
+    }
+    
+    .stake-name {
+        font-size: 0.8rem;
+    }
+    
+    .stake-rate {
+        font-size: 1rem;
+    }
+
+
+
+    #side-section {
+        width: 300px;
+       display: none;
+       z-index: 99;
+    }
+    .title-section {
+        margin-top: 20px;
+    }
+    
+    .title {
+    font-size: 22px;
+    }
+    
+    .logo {
+        width: 50px;
+      height: 50px;
+      
+    }
+    
+    .menu-section {
+        
+        margin-top: 50px;
+        margin-left: 55px;
+        font-family: 'Jost', sans-serif;
+        
+    }
+    
+    
+    .icon {
+        width: 20px;
+      height: 20px;
+      margin-right: 10px;
+     
+    }
+    
+    
+    
+    .item {
+        font-size: 15px;
+        color: #fff;
+        margin-top: -1px;
+        cursor: pointer;
+        font-family: 'Jost', sans-serif;
+    }
+    
+   
+    
+    .bond-section {
+        
+        margin-left: 25px;
+    }
+    
+    .bond-title {
+    font-weight: 500;
+    font-size: 15px;
+    }
+    
+    .bond-info {
+        font-size: 13px;
+        font-weight: 800;
+    }
+    
+    .bond-box1 {
+        margin-right: 78px;
+    }
+    
+    .space-box {
+        padding: 10px;
+    }
+    
+    .social-media-section {
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+    
+    .social-media-icon {
+        width: 20px;
+      height: 20px;
+      margin-right: 60px;
+      cursor: pointer;
+    }
+    
+ }
+
+
