@@ -246,6 +246,114 @@ display: flex;
      transition: 0.2s ease-in-out;
 }
 
+
+
+
+
+.card-section {
+    z-index: 99;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top:10%;
+  left:30%;
+}
+
+.stake-title {
+    color: #F89E1B;
+  
+  margin-bottom: 54px;
+  font-family: 'Jost', sans-serif;
+font-weight: 700;
+font-size: 40px;
+line-height: 58px;
+}
+
+.card-wrapper {
+    max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 16px;
+  padding: 0 50px;
+}
+
+.stake-card {
+    background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(4px);
+border-radius: 15px;
+
+  border-color: #fff;
+  
+  height: 50px;
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.stake-card:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.stake-name {
+    font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  font-family: 'Jost', sans-serif;
+  
+}
+
+.stake-rate {
+    font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: -10px;
+  font-family: 'Jost', sans-serif;
+}
+
+
+
+.close-button {
+    border: none;
+    background-color: transparent;
+}
+
+.open-button {
+    border: none;
+    background-color: transparent;
+}
+
+.fa-bars {
+    display: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .card-section {
+        left: 40%;
+    }
+
+    .card-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+}
+
 @media screen and (max-width: 640px) {
 
     #top-section {
@@ -327,125 +435,13 @@ display: flex;
  
  }
 
-
-
-.card-section {
-    z-index: 99;
-  max-width: 1200px;
-  position: absolute;
-  padding: 8px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  top:10%;
-  left:30%;
-}
-
-.stake-title {
-    color: #F89E1B;
-  
-  margin-bottom: 54px;
-  font-family: 'Jost', sans-serif;
-font-weight: 700;
-font-size: 40px;
-line-height: 58px;
-}
-
-.card-wrapper {
-    max-width: 1000px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  grid-gap: 16px;
-  padding: 0 50px;
-}
-
-@media screen and (max-width: 1024px) {
-
-    #side-section {
-        
-    }
-
-    .card-section {
-        left: 40%;
-    }
-
-    .card-wrapper {
-        grid-template-columns: 1fr;
-    }
-
-}
-
-.stake-card {
-    background: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid rgba(255, 255, 255, 0.5);
-backdrop-filter: blur(4px);
-border-radius: 15px;
-
-  border-color: #fff;
-  
-  height: 50px;
-  width: 300px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
-  transition: all 0.2s ease-in-out;
-}
-
-.stake-card:hover {
-    transform: scale(1.02);
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
-}
-
-.stake-name {
-    font-size: 1rem;
-  text-align: center;
-  color: #fff;
-  font-family: 'Jost', sans-serif;
-  
-}
-
-.stake-rate {
-    font-size: 1.5rem;
-  color: #fff;
-  margin-bottom: 10px;
-  font-weight: bold;
-  margin-top: -10px;
-  font-family: 'Jost', sans-serif;
-}
-
-
-
-.close-button {
-    border: none;
-    background-color: transparent;
-}
-
-.open-button {
-    border: none;
-    background-color: transparent;
-}
-
-.fa-bars {
-    display: none;
-    color: #fff;
-}
-
-
-
 @media screen and (max-width: 480px) {
     
 
     #top-section {
         display: block;
         margin-top: 30px;
-        margin-left: 50px;
+        margin-left: 70px;
         z-index: 50;
     }
 
